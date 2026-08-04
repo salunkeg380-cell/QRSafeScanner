@@ -30,7 +30,7 @@ public class QRDecoder {
         }
         catch (NotFoundException e) {
 
-            System.out.println("QR Code not found in image.");
+            System.out.println(" QR Code not found in image.");
         }
         catch (Exception e) {
 
