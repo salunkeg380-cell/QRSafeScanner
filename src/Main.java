@@ -6,9 +6,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("======================================");
+        System.out.println("=====================================");
         System.out.println("      QR Shield - Phishing Detector");
-        System.out.println("======================================");
+        System.out.println("=====================================");
 
         System.out.print("Enter QR Code Image Path : ");
 
