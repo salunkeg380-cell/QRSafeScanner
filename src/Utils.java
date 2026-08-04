@@ -5,9 +5,9 @@ public class Utils {
     // Display application title
     public static void printHeader() {
 
-        System.out.println("==========================================");
+        System.out.println("=========================================");
         System.out.println("      QR Shield - Phishing Detector");
-        System.out.println("==========================================");
+        System.out.println("=========================================");
     }
 
     // Check whether file exists
