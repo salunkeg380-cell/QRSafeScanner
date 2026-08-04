@@ -7,7 +7,7 @@ public class URLAnalyzer {
 
         // Rule 1: URL contains an IP address
         if(url.matches(".*\\d+\\.\\d+\\.\\d+\\.\\d+.*")) {
-            return true;
+             return true;
         }
 
         // Rule 2: Suspicious keywords
