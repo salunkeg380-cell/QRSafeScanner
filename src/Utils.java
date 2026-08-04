@@ -2,7 +2,7 @@ import java.io.File;
 
 public class Utils {
 
-    // Display application title
+    
     public static void printHeader() {
 
         System.out.println("=========================================");
@@ -10,7 +10,6 @@ public class Utils {
         System.out.println("=========================================");
     }
 
-    // Check whether file exists
     public static boolean fileExists(String path) {
 
         File file = new File(path);
@@ -18,7 +17,7 @@ public class Utils {
         return file.exists();
     }
 
-    // Check image format
+  
     public static boolean isValidImage(String path) {
 
         path = path.toLowerCase();
