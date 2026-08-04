@@ -5,9 +5,9 @@ public class Utils {
     
     public static void printHeader() {
 
-        System.out.println("=========================================");
+        System.out.println("========================================");
         System.out.println("      QR Shield - Phishing Detector");
-        System.out.println("=========================================");
+        System.out.println("========================================");
     }
 
     public static boolean fileExists(String path) {
