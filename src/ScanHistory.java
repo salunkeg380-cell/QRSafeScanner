@@ -11,7 +11,7 @@ public class ScanHistory {
 
             FileWriter writer = new FileWriter("history/scan_history.txt", true);
 
-            writer.write("-----------------------------------------\n");
+            writer.write("----------------------------------------\n");
 
             writer.write("Date : " + LocalDate.now() + "\n");
 
